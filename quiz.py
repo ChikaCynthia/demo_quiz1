@@ -28,7 +28,17 @@ def get_questions():
             "question": "What is the smallest prime number?",
             "choices": ["A) 0", "B) 1", "C) 2", "D) 3"],
             "answer": "C"
-        }
+        },
+        {
+            "question": "What is the value of pi (π) to two decimal places?",
+            "choices", ["A) 3.12", "B) 3.14", "C) 3.16", "D) 3.18"],
+            "answer": "C"
+        },
+        {
+            "question": "Which gas is most abundant in the Earth’s atmosphere?",
+            "choices": ["A) Oxygen", "B) Carbon Dioxide", "C) Nitrogen", "D) Hydrogen",
+            "answer": "C"
+        },
     ]
     return questions
 
